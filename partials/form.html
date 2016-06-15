@@ -1,6 +1,6 @@
 
-<form class="form-horizontal" name="epayform"  autocomplete="off">
-<!--       <input type="hidden" name="UMkey" value="_pWEqrQiNqur5CkKoMG475sGoYf81ERN"> -->
+<form class="form-horizontal" name="epayform" action="https://sandbox.usaepay.com/gate.php" method="POST" autocomplete="off">
+      <input type="hidden" name="UMkey" value="_pWEqrQiNqur5CkKoMG475sGoYf81ERN">
       <input type="hidden" name="UMredirDeclined" value="http://christina-regis.github.io/usaepay/#/declined">
       <input type="hidden" name="UMredirApproved" value="http://christina-regis.github.io/usaepay/#/approved">
 <!--       <input type="hidden" name="UMhash" value="349628"> -->
@@ -95,7 +95,7 @@
       </div>
       <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-            <input class="btn btn-default" type="submit" ng-click="formctrl.submit()" name="submitbutton" value="Order Flowers">
+            <input class="btn btn-default" type="submit" name="submitbutton" value="Order Flowers">
             </div>
       </div>
     </form>
